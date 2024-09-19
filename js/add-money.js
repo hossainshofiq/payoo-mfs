@@ -13,7 +13,7 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
 
     // step 3: verify pin number(wrong way to validate pin number)
     if(pinNumberInput === '1234'){
-        console.log('Adding money to your account');
+        // console.log('Adding money to your account');
 
         // step 4: get the current balance
         const balance = document.getElementById('account-balance').innerText;
@@ -30,6 +30,6 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
 
     }
     else{
-        alert('Failed to add money! Wrong password, Please try again.');
+        alert('Failed to add money! Wrong input, Please try again.');
     }
 })
